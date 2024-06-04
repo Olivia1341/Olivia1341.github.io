@@ -532,14 +532,16 @@
                     
 
                     
-                        <link rel="stylesheet" href="/libs/dplayer/DPlayer.min.css">
+                            <link rel="stylesheet" href="/libs/dplayer/DPlayer.min.css">
 <div class="video-player">
     
     <div class="row">
+		
         <div class="col l8 offset-l2 m10 offset-m1 s12">
             <div id="dplayer" class="dplayer-video"
                     ></div>
         </div>
+		
     </div>
 </div>
 
@@ -553,16 +555,16 @@
             loop: 'false' === 'true',
             lang: 'zh-CN' === 'zh-CN' ? 'zh-cn' : 'en',
             preload: 'auto',
+            hotkey: true,
             volume: Number('0.7'),
             video: {
-                url: '',
+                url: '/medias/forget.mp4',
                 pic: '',
                 thumbnails: ''
             }
         });
     });
 </script>
-
                     
 
                     
